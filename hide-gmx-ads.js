@@ -10,5 +10,5 @@
 
 $(document).ready(function() {
     var ads = $('tr .ad-hint').closest('tr');
-    ads.hide();
+    ads.remove();
 });
